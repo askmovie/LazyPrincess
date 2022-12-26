@@ -1,22 +1,20 @@
 {
-  "name": "LazyPrincess",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.py",
+   "name": "Auto-Filter-V5",
+   "version": "1.0.0",
+   "description": "",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/askmovie/LazyPrincess.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/askmovie/LazyPrincess-api/issues"
-  },
-  "homepage": "https://github.com/askmovie/LazyPrincess-api#readme",
-  "dependencies": {
-    "express": "^4.17.1"
-  }
+       "build": "echo \"No build specified\" && exit 1",
+       "test": "echo \"No test specified\" && exit 1",
+        "start": "node index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/askmovie/Auto-Filter-V5.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/askmovie/Auto-Filter-V5/issues"
+    },
+    "homepage": "https://github.com/askmovie/Auto-Filter-V5#readme"
 }
