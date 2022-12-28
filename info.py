@@ -12,9 +12,9 @@ def is_enabled(value, default):
 
 # Bot information
 SESSION = environ.get('SESSION', 'Media_search')
-API_ID = int(environ['10738493'])
-API_HASH = environ['470da6bd517277ac20c0b6b3a14d3807']
-BOT_TOKEN = environ['5679023552:AAE1qa2-wSolelBkWthgNbrWhSzpR7OtLVs']
+API_ID = int(environ['API_ID','10738493'])
+API_HASH = environ['API_HASH','470da6bd517277ac20c0b6b3a14d3807']
+BOT_TOKEN = environ['BOT_TOKEN','5679023552:AAE1qa2-wSolelBkWthgNbrWhSzpR7OtLVs']
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
@@ -40,7 +40,7 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 LOG_CHANNEL = int(environ.get('1001624806573', 0))
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/askanymoviesupport')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
-IMDB = is_enabled((environ.get('IMDB', "False")), False)
+IMDB = is_enabled((environ.get('IMDB', "True")), True)
 SINGLE_BUTTON = is_enabled((environ.get('SINGLE_BUTTON', "False")), False)
 CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", None)
 BATCH_FILE_CAPTION = environ.get("BATCH_FILE_CAPTION", CUSTOM_FILE_CAPTION)
